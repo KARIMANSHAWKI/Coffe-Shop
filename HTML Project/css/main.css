@@ -1,0 +1,731 @@
+/******Main Rulez*******/
+
+*{ padding: 0;
+   margin: 0;}
+
+.clear{clear: both;}
+
+a{text-decoration: none;}
+
+li{
+    list-style: none;
+    display: inline-block;}
+
+/*************************************************************************/
+
+/******************Start Header******************/
+.ways{
+    height: 30px;
+    background-color: #B89D64;
+    width:100%}
+
+.ways .f_ways{
+    display: inline-block;
+    width: 70%;
+    float: left;}
+
+.ways .f_ways ul li{
+    padding-left: 20px;
+    line-height: 30px;}
+
+.ways .f_ways ul{
+    margin-left: 80px;
+    width: 50%;
+    float: left;
+    cursor: pointer;}
+
+.ways .f_ways ul li i{color: #19100C;}
+
+.ways .f_ways ul li span{ color: #fff;}
+
+.ways .s_ways{
+    width:30%;
+    display: inline-block;
+    float: right;}
+
+.s_ways ul{
+    padding-left: 220px;}
+
+.ways .s_ways ul li {
+    padding-left: 25px;
+    margin-top: 7px;
+    cursor: pointer;}
+/*********************************************************************/
+
+/*******Start mini header**********/
+.header{
+    height: 80px;
+    background-color: #19100C;
+    width: 100%;}
+
+.header .brand{
+    height: 69px;
+    width:74px;
+    padding-top: 5px;
+    margin-left: 100px;
+    display: inline-block;}
+
+.header .brand img{
+    width:100%;
+    height:100%}
+
+.header .links{
+    width:60%;
+    margin-left: 220px;
+    display: inline-block;}
+
+.header .links ul{float: left;}
+
+.header .links ul li {
+   padding-left: 20px;
+   line-height: 80px;}
+
+.header .links ul li a{
+    color:#fff;
+    font-weight: bold;
+    font-family: arial;}
+
+.header .links ul li:hover a{color:#B89D64}
+
+.links ul li.active a{color:#BA9E64}
+
+.header .cs_icons{display: inline-block;}
+
+.header .cs_icons {
+    float: right;
+    width:10%;}
+
+.header .cs_icons ul{ margin-right: 30px;}
+
+.header .cs_icons li{
+    margin-top: 30px;
+    margin-right: 20px;
+    cursor: pointer;}
+
+.header .cs_icons li:hover i{color:#fff ;}
+
+.header .cs_icons li i{
+   color: #B89D64;
+   width:30px;}
+/********************************************************************************/
+
+/********************Start About Us Section**************/
+.bg{
+    height:150px;
+    background-image: url("../image/aboutBg.jpg");
+    text-align: center;}
+
+.bg img{
+    width:100%;
+    height:100%}
+
+.bg h1{
+    color:#B89D64;
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 40px;
+    font-style: italic;}
+
+.des{
+    width:100%;
+    text-align: center;
+    padding-top: 60px;}
+
+.des p{
+    width:70%;
+    margin-left: 200px;
+    font-family: "Raleway", sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    color:#929292}
+
+.about_sec tr td{
+    width:33.33333%;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 70px;}
+
+.about_sec tr td i{color: #B89D64;}
+
+.about_sec tr td h3{
+    font-weight: bold;
+    font-family: arial;
+    padding-top: 30px;}
+
+.about_sec tr td p{
+    width:80%;
+    font-family: "Raleway", sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    color:#929292; 
+    margin-top: 30px;
+   margin-left: 46px;}
+/********************************************************************************/
+
+
+/********************START REGISTER PAGE****************************/
+.container{
+    margin:auto;
+    text-align: center;}
+
+.container .reg_logo{
+    height: 69px;
+    width: 74px;
+   margin: auto;
+   margin-top: 80px;}
+
+.container .reg_logo img{
+    width:100%;
+    height:100%}
+
+.container h2{
+    font-size: 26px;
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 20px;
+    color:#2B1B13}
+
+.container .request{
+    font-size: 14px;
+    color:#929292;
+    margin-top:10px;}
+
+.signing{
+    width:380px;
+    margin: auto;
+    margin-top: 30px;}
+
+.signing input{
+    width:100%;
+    height:47px;
+    margin-bottom: 20px;
+    color:#e3ded4;
+    font-size: 16px;
+    border:1px solid #e3ded4;
+    padding-left: 20px;}
+
+.signing input[type="submit"]{
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    background-color: #2B1B13;
+    color: #B89D64;
+    font-weight: bold;
+    cursor: pointer;}
+
+.container .alter_way{
+   font-size:16px;
+    color:#6d6868;
+    font-family: arial;}
+
+.sing_ways{
+    width:380px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sing_ways .linkedin,
+.sing_ways .face{
+    width:175px;
+    height:47px;}
+
+.sing_ways .face{
+    background-color: #031c8e;
+    margin-left: 15px;}
+
+.sing_ways .linkedin{background-color: #0A66C2;}
+
+.sing_ways .linkedin:hover,
+.sing_ways .face:hover
+{ background-color: #2B1B13;}
+
+.sing_ways li a{ line-height: 47px;}
+
+.sing_ways .face a,
+.sing_ways .linkedin a{ color: #fff;}
+
+.sing_ways .linkedin span,
+.sing_ways .face span{
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: arial;}
+
+.container .terms{
+    font-size:15px;
+    color:#6d6868; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: arial;
+    line-height: 1.4;}
+
+.terms span{
+    color:#19100C;
+    font-weight: bold;
+    cursor: pointer;}
+
+.go_to_login,
+.go_to_signup {margin-bottom: 60px;}
+
+.go_to_signup{margin-top: 40px;}
+
+.go_to_login a,
+.go_to_signup a{
+    color:#B89D64;
+    font-size: 15px;
+    font-family: arial;}
+
+.go_to_login a span,
+.go_to_signup a span{
+    font-weight: bold;
+    color:#2B1B13}
+
+.go_to_login a:hover,
+.go_to_signup a:hover{ color:#2B1B13}
+
+.signing .check{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    margin-right: 10px;}
+
+.signing span{
+    font-size:16px;
+    color:#6d6868;
+    font-family: arial;}
+
+.container .forget{margin-bottom: 20px;}
+
+.container .forget a{
+    color:#B89D64;
+    font-size: 15px;
+    font-family: arial;}
+
+.container .forget a:hover{color:#2B1B13;}
+/***************************************************************************/
+
+
+/*******************START CONTACT US STYLE*************************/
+.contacts{
+    width:40%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;}
+
+.contacts ul{ padding-top: 80px;}
+
+.contacts ul li{
+    display: block;
+    margin-bottom: 50px;}
+
+.contacts span{
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 10px;}
+
+.contacts ul li i{ color: #B89D64;}
+
+.contacts ul li p{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #c7c7c7;
+    font-weight: 300;
+    padding-top: 20px;}
+
+.contact{
+    width:500px;
+    padding: 30px 30px 45px 30px;
+    margin-top: 100px;
+    float: left;
+    background-color: #f5f2eb;
+    margin-bottom: 80px;}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea{
+    font-family: "Raleway", sans-serif;
+    background-color: #fff;
+    color:#e3ded4;
+    font-size: 16px;
+    border:1px solid #e3ded4;}
+
+.contact textarea{
+    width:100%;
+    height: 165px;
+    padding-left: 20px;
+    padding-top: 20px;}
+
+.contact input[type="text"],
+.contact input[type="email"]{
+    width:240px;
+    height:49px;
+    margin-top: 30px;
+    padding-left: 20px;}
+
+.contact input[type="email"]{margin-left: 15px;}
+
+.contact .comment{
+    width:186px;
+    height:48px;
+    text-align: center;
+    border: none;
+    background-color: #2B1B13;
+    margin-top: 30px;
+    margin-left: 150px;
+   }
+.contact .comment a{
+    font-size: 16px;
+    color: #B89D64;
+    font-weight: bold;
+    line-height: 48px;
+    font-family:arial;
+}
+/******************************************************************************/
+
+
+/**********START MAP SECTION***************************/
+.branches{
+    width: 500px;
+    float: left;
+    display: inline-block;
+    margin-top: 100px;
+    padding-left: 70px;}
+
+.branches h2{
+    font-size: 23px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;}
+
+.branches .hr_2{
+    width:150px;
+    height: 1px;
+    background-color: #B89D64;
+    margin-left: 50px;
+    margin-top: 13px;
+    margin-bottom: 40px;}
+
+.branches p{
+    font-size: 18px;
+    margin-top: 20px;
+    font-style: italic;
+    margin-bottom: 10px;}
+
+.branches p i{
+    color:#B89D64;
+    margin-right: 10px;}
+
+.branches .places li{
+    color: #9c9a99;
+    line-height: 3;
+    font-weight: bold;
+    font-family: arial;}
+
+.branches  li i{
+    color: #B89D64;
+    margin-right: 10px;}
+
+.branches .numbers li{
+    display: block;
+    color: #9c9a99;
+    font-weight: bold;
+    line-height: 2;}
+
+.map{
+    width:500px;
+    margin-top: 100px;
+    margin-left: 70px;
+   float: left;}
+/***************************************************************************/
+
+
+/****************FOOTER SECTION********************/
+.footer{
+    padding-bottom: 80px;
+    padding-top:40px ;
+    background-color:#2B1B13
+}
+.footer .f_logo{
+    width:98px;
+    height: 91px;
+    float: left;
+    display: inline-block;
+    margin-right: 200px;}
+
+.footer .f_logo img{
+    width: 100%;
+    height: 100%;
+    margin-left: 70px;
+    margin-top: 50px;}
+
+.footer .f_des{
+    width:25%;
+    float: left;
+    display: inline-block;}
+
+.footer .f_des h2{
+    color: #B89D64;
+    padding-top: 50px;}
+
+.footer .f_des P{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #d8cfb5;
+    line-height: 20px; 
+    padding-top: 10px;}
+
+.footer .f_mails{
+    width:20%;
+    float: left;
+    margin-top: 50px;
+    padding-left: 120px;}
+
+.footer .f_mails li{
+    display: block;
+    color: #f5f2eb;
+    margin-bottom: 20px;}
+
+.footer .f_mails li i{
+    color: #B89D64;
+    margin-right: 10px;}
+
+.footer .f_social{margin-top: 50px;}
+
+.footer .f_social h1{
+    color: #B89D64;
+    margin-bottom: 30px;}
+
+.footer .f_social ul li{ margin-right: 20px;}
+
+.f_social i{
+    color: #f5f2eb;
+    cursor: pointer;}
+/*******************************************************************************/
+
+/**********Started Designer**********/
+.designer{
+    background-color: #1E130E;
+    color: #fff;
+    text-align: center;
+    height: 77px;
+    line-height: 77px;}
+
+.designer span{ color: #B89D64;}
+/************************************************************************************/
+
+/******************Start Gallary****************/
+.gallary{
+    margin:auto;
+    margin-bottom:70px
+}
+
+.gallary tr td{
+    width:33%;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right:20px ;
+}
+
+.gallary td h3{
+    color: #2c1910;
+    margin-top: 25px;
+}
+
+.gallary td p{
+     width:340px;
+     color:#797675;
+     padding-bottom: 30px;
+}
+
+.gallary td span{
+    padding-top:40px;
+    font-weight: 800;
+    font-size: 24px;
+    color:#B89D64
+}
+
+.gallary td .more{
+    width:127px;
+    height:28px;
+    border:none;
+    background-color: #BA9E64;
+    color: #2c1910;
+    display: block;
+    margin: auto;
+    margin-top:40px;
+}
+
+.gallary td .more a{
+    color:#2c1910;
+    font-weight: bold;
+    font-family: arial;
+}
+/***********************************************************************************/
+
+/*************Arabica Product************************/
+.img_border{
+    width:450px;
+    height:450px;
+    margin-top:70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border:1px solid #d4d0d045;
+    float: left;
+}
+.Arabica_img{
+    width: 388px;
+    height:380px;
+    margin-top: 50px;
+    margin-left: 30px;
+  
+}
+
+.img_border .Arabica_img img{
+    width:100%;
+    height:100%
+}
+
+.pro_details {
+  padding-top:70px;
+}
+
+.pro_details h1{
+    font-weight: bold;
+    font-family: arial;
+    margin-bottom:20px;
+}
+
+.pro_details span{
+    font-weight: 800;
+    font-size: 23px;
+    color:#B89D64;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.pro_details p{
+    width:90%;
+    color:#797675;
+    padding-bottom: 30px;
+    font-size:17px
+}
+
+.pro_details ul li{
+    display: block;
+}
+
+.pro_details ul .li_block{
+    display: inline-block;
+}
+
+.pro_details ul li span{
+    display: inline-block;
+    font-size: 18px;
+}
+.pro_desc{
+    display: inline-block;
+}
+
+.pro_desc{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+
+.pro_desc h3{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;}
+
+.pro_desc .hr_3{
+    width:50px;
+    height: 1px;
+    background-color: #B89D64;
+    margin-left: 20px;
+    margin-top: 13px;
+    margin-bottom: 30px;}
+
+.pro_desc p{
+    width:80%;
+    padding:25 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #9c9a99;
+    background-color:#f5f2eb;
+}
+/*******form for requesting product*******/
+.pro_request{
+    margin: auto;
+    text-align: center;
+    width:550px;
+    border:1px solid #9c9a99;
+    margin-bottom:70px}
+
+.pro_request .reg_logo{
+    height: 69px;
+    width: 74px;
+   margin: auto;
+   margin-top: 50px;}
+
+.pro_request .reg_logo img{
+    width:100%;
+    height:100%}
+
+.pro_request h2{
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 20px;
+    color:#2B1B13}
+
+.pro_request .request_pro{
+    font-size: 14px;
+    color:#929292;
+    margin-top:10px;}
+
+.requesting{
+    width:380px;
+    margin: auto;
+    margin-top: 30px;}
+
+.requesting input{
+    width:100%;
+    height:47px;
+    margin-bottom: 20px;
+    color:#e3ded4;
+    font-size: 16px;
+    border:1px solid #e3ded4;
+    padding-left: 20px;}
+
+.requesting .submit{
+    text-align: center;
+    border: none;
+    background-color: #2B1B13;
+    height: 47px;
+    line-height: 47px;
+    cursor: pointer;
+margin-bottom: 50px;}
+
+.submit a{
+    color: #B89D64;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.submit i{
+    color:#fff;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.client_comment{
+    width:100%;
+    height:100px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: arial;
+}
